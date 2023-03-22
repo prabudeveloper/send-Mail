@@ -1,0 +1,33 @@
+{
+    "manifestVersion": 1,
+    "id": "Send-Email-plugin",
+    "name": "send email tasks plugin",
+    "version": "0.0.6",
+    "publisher": "prabudevops",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tools for building/releasing with Fabrikam. Includes one build/release task.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "files": [
+        {
+            "path": "SendEmail"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "Send-Email-build-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "SendEmail"
+            }
+        }
+    ]
+}
