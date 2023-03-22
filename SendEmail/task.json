@@ -5,7 +5,7 @@
     "friendlyName":  "send mail through task",
     "description":  "create new plugin send mail",
     "helpMarkDown":  "",
-    "category":  "Azure Pipelines",
+    "category":  "Deploy",
     "author":  "prabuazure",
     "version":  {
                     "Major":  0,
