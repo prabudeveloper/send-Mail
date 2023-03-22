@@ -1,11 +1,11 @@
 {
     "$schema":  "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
     "id":  "45ce496f-61d2-4a9f-af71-3acdb11c4d96",
-    "name":  "sendmailthroughtask",
+    "name":  "sendmailthroughtaskrelease",
     "friendlyName":  "send mail through task",
     "description":  "create new plugin send mail",
     "helpMarkDown":  "",
-    "category":  "Utility",
+    "category":  "Azure Pipelines",
     "author":  "prabuazure",
     "version":  {
                     "Major":  0,
